@@ -4,7 +4,7 @@ import { SiTypescript } from "react-icons/si";
 
 export default function About(){
     return (
-        <div id="about" className="w-full h-[700px] flex items-center justify-center p-10">
+        <div id="about" className="w-full h-[700px] flex items-center justify-center p-10 border-b-2 border-b-letterColor">
             <div className="w-full max-w-7xl h-full flex justify-evenly items-center gap-5">
                 <div className="flex flex-col items-start justify-center gap-5 w-[75%]">
                     <h1 className="text-letterColor text-3xl">
