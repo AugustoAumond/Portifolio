@@ -86,7 +86,7 @@ export default function Projects (){
                                     </div>
                 
                                     <div className="flex flex-col items-start justify-center gap-3">
-                                        <p>PRINCIPAIS TECNOLOGIAS:</p>
+                                        <p>TECNOLOGIAS UTILIZADAS:</p>
                 
                                         <div className="flex gap-4 text-letterColor">
                                             {item.tecnology.html && <FaHtml5 className="size-6"/>}
