@@ -1,9 +1,9 @@
 
 export default function Header(){
     return (
-        <div className="fixed h-20 w-full bg-primaryColor flex items-center justify-center">
+        <div className="fixed h-20 w-full bg-primaryColor flex items-center justify-center p-5">
             <div className="w-full max-w-7xl h-full flex justify-between items-center">
-                <div className="text-letterColor text-2xl">
+                <div className="text-letterColor text-lg md:text-2xl">
                     {'<AUGUSTO AUMOND/>'} 
                 </div>
 
