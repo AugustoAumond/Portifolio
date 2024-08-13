@@ -48,7 +48,7 @@ export default function About(){
                 </div>
 
                 <div className="flex flex-col items-center justify-center gap-5 w-[50%]">
-                    <div className="w-[40%] rounded-full overflow-hidden">
+                    <div className="w-[40%] rounded-2xl overflow-hidden">
                         <img src="./augusto.jpg" alt="" />
                     </div>
                     

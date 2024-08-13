@@ -2,7 +2,7 @@
 export default function Header(){
     return (
         <div className="fixed h-20 w-full bg-primaryColor flex items-center justify-center">
-            <div className="w-full max-w-7xl h-full flex justify-evenly items-center">
+            <div className="w-full max-w-7xl h-full flex justify-between items-center">
                 <div className="text-letterColor text-2xl">
                     {'<AUGUSTO AUMOND/>'} 
                 </div>

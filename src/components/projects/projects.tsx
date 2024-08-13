@@ -12,7 +12,7 @@ export default function Projects (){
     }, [projects])
 
     return (
-        <div id="projects" className="w-full border-b-2 border-b-letterColorflex flex-col items-center justify-center p-[100px] gap-10">
+        <div id="projects" className="w-full border-b-2 border-b-letterColorflex flex-col items-center justify-center p-10 gap-10">
             <h1 className="text-5xl mt-10 mb-10 text-center">PROJETOS</h1>
             {projects.map((item, index)=>{
                 return (
