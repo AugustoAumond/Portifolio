@@ -4,19 +4,19 @@ import { SiTypescript } from "react-icons/si";
 
 export default function About(){
     return (
-        <div id="about" className="w-full h-[700px] flex items-center justify-center p-10 border-b-2 border-b-letterColor">
-            <div className="w-full max-w-7xl h-full flex justify-evenly items-center gap-5">
-                <div className="flex flex-col items-start justify-center gap-5 w-[75%]">
-                    <h1 className="text-letterColor text-3xl">
+        <div id="about" className="w-full h-[unset] md:h-[700px] flex items-center justify-center mt-20 p-5 md:p-10 border-b-2 border-b-letterColor">
+            <div className="w-full max-w-7xl h-full flex flex-col-reverse md:flex-row justify-evenly items-center gap-5">
+                <div className="flex flex-col items-start justify-center gap-5 w-[100%]">
+                    <h1 className="text-letterColor text-1xl md:text-3xl">
                         DESENVOLVEDOR FRONT END
                     </h1>
 
                     <div>
-                        <p className="text-white text-base">
+                        <p className="text-white text-sm md:text-base">
                             SOBRE MIM:
                         </p>
 
-                        <p className="text-letterColor text-sm">
+                        <p className="text-letterColor text-xs md:text-sm">
                         Sou apaixonado por tecnologia e tenho me dedicado a esse universo desde o final de 2020. Minha primeira oportunidade profissional surgiu no final de 2022, e desde então, venho aprimorando minhas habilidades e conhecimentos, especialmente em tecnologias como HTML, CSS, JavaScript, React e Typescript. Atualmente, estou me aprofundando em React e iniciando meus estudos em Node.js, sempre buscando evoluir e me desenvolver como profissional. Estou em busca de novas oportunidades que me desafiem e permitam contribuir com soluções inovadoras.
                         </p>
                     </div>
@@ -48,7 +48,7 @@ export default function About(){
                 </div>
 
                 <div className="flex flex-col items-center justify-center gap-5 w-[50%]">
-                    <div className="w-[40%] rounded-2xl overflow-hidden">
+                    <div className="w-[80%] md:w-[40%] rounded-2xl overflow-hidden">
                         <img src="./augusto.jpg" alt="" />
                     </div>
                     
