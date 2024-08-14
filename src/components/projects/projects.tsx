@@ -13,7 +13,7 @@ export default function Projects (){
     }, [projects])
 
     return (
-        <div id="projects" className="w-full bg-slate-950 border-b-2 border-letterColor border-b-letterColorflex flex-col items-center justify-center p-5 md:p-10 gap-10">
+        <div id="projects" className="w-full bg-slate-950 md:border-b-2 md:border-letterColor md:border-b-letterColor flex flex-col items-center justify-center p-5 md:p-10 gap-10">
             <h1 id="title-projects" className="text-3xl md:text-5xl mt-10 mb-10 text-center">PROJETOS</h1>
             {projects.map((item, index)=>{
                 return (
