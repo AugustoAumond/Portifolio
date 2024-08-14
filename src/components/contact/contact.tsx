@@ -10,7 +10,7 @@ export default function Contact(){
 
                 <p className="text-sm md:text-lg text-letterColor">Gostou do meu trabalho e gostaria de descutir algum projeto, colaborar em uma ideia ou então apenas dizer olá? Estou disponível para conversas e sempre interessado em novas oportunidades. Sinta-se à vontade para entrar em contato pelos meios abaixo:</p>
 
-                <div className="text-sm md:text-lg flex gap-2 items-center justify-start">
+                <div className="text-sm md:text-lg flex gap-2 items-center justify-start hover:text-letterColor">
                     <a className="flex gap-2 items-center justify-start" target="_blank" href="https://wa.me/5551992206521">
                         <FaWhatsapp className="size-4 md:size-6" />: (51) 9 9220-6521
                     </a>
@@ -21,19 +21,19 @@ export default function Contact(){
                 </div>
 
                 <div className="text-sm md:text-lg">
-                    <a className="flex gap-2 items-center justify-start" href="https://www.linkedin.com/in/augusto-sturmer-176227207/" target="_blank">
+                    <a className="flex gap-2 items-center justify-start hover:text-letterColor" href="https://www.linkedin.com/in/augusto-sturmer-176227207/" target="_blank">
                         <FaLinkedin className="size-4 md:size-6" />: https://www.linkedin.com/in/augusto-sturmer-176227207/
                     </a>
                 </div>
 
                 <div className="text-sm md:text-lg">
-                    <a className="flex gap-2 items-center justify-start" href="https://github.com/AugustoAumond" target="_blank">
+                    <a className="flex gap-2 items-center justify-start hover:text-letterColor" href="https://github.com/AugustoAumond" target="_blank">
                         <FaGithub className="size-4 md:size-6" />: https://github.com/AugustoAumond
                     </a>
                 </div>
 
                 <div className="text-sm md:text-lg">
-                    <a className="flex gap-2 items-center justify-start" href="./Curriculo Augusto.pdf" download="./Curriculo Augusto.pdf">
+                    <a className="flex gap-2 items-center justify-start hover:text-letterColor" href="./Curriculo Augusto.pdf" download="./Curriculo Augusto.pdf">
                         <FaFile className="size-4 md:size-6" />: Curriculum Augusto
                     </a>
                 </div>
