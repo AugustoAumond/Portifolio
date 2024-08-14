@@ -3,6 +3,7 @@ import { object } from "./object";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript, SiVercel } from "react-icons/si";
 import { useEffect } from "react";
+import './animProjects.css';
 
 export default function Projects (){
     const projects = object;
@@ -12,14 +13,14 @@ export default function Projects (){
     }, [projects])
 
     return (
-        <div id="projects" className="w-full border-b-2 border-b-letterColorflex flex-col items-center justify-center p-5 md:p-10 gap-10">
-            <h1 className="text-3xl md:text-5xl mt-10 mb-10 text-center">PROJETOS</h1>
+        <div id="projects" className="w-full bg-slate-950 border-b-2 border-letterColor border-b-letterColorflex flex-col items-center justify-center p-5 md:p-10 gap-10">
+            <h1 id="title-projects" className="text-3xl md:text-5xl mt-10 mb-10 text-center">PROJETOS</h1>
             {projects.map((item, index)=>{
                 return (
                 <div className="w-full" key={index} >
-                    <div key={index} className="w-full border-b-2 border-b-letterColor md:border-b-0 bg-terciaryColor flex flex-col items-center justify-center gap-10 p-5 md:p-10">
+                    <div key={index} className="w-full border-b-2 border-b-letterColor md:border-b-0 bg-slate-950 flex flex-col items-center justify-center gap-10 p-5 md:p-10">
                         <div  className="w-full max-w-7xl h-full flex flex-col justify-evenly items-center gap-5 md:gap-10 md:flex-row">
-                            <div className="flex flex-col flex-1  items-start justify-center gap-2 md:gap-5 w-[90%] md:w-[50%]">
+                            <div id="text-projects" className="flex flex-col flex-1  items-start justify-center gap-2 md:gap-5 w-[90%] md:w-[50%]">
                                 <h1 className="text-letterColor text-1xl md:text-3xl">
                                     {item.name.toUpperCase()}
                                 </h1>
@@ -59,7 +60,7 @@ export default function Projects (){
                                 </div>
                             </div>
             
-                            <div className="flex flex-col items-center justify-center gap-5 w-[100%] md:w-[50%]">
+                            <div id="img-projects" className="flex flex-col items-center justify-center gap-5 w-[100%] md:w-[50%]">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={item.img} alt="" />
                                 </div>

@@ -1,0 +1,54 @@
+
+#title-projects {
+    animation: appearTitle 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 70%;
+}
+
+#text-projects {
+    animation: appearText 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+}
+
+#img-projects {
+    animation: appearImg 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+}
+
+@keyframes appearTitle{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+@keyframes appearText {
+    from {
+        opacity: 0;
+        transform: translate(-50vh, 0%)
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translate(0%, 0%)
+    }
+}
+
+@keyframes appearImg {
+    from {
+        opacity: 0;
+        transform: translate(50vh, 0%)
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0%, 0%)
+    }
+}

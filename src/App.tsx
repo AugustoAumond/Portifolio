@@ -7,14 +7,14 @@ import Projects from './components/projects/projects'
 
 function App() {
   return (
-    <div className='bg-terciaryColor flex flex-col'>
+    <div className='bg-slate-950 flex flex-col'>
       <Header/>
 
       <About/>
 
       <Projects/>
 
-      <Contact />
+      <Contact/>
     </div>
   )
 }
