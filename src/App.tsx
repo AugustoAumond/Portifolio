@@ -8,6 +8,7 @@ import Projects from './components/projects/projects'
 function App() {
   return (
     <div className='bg-slate-950 flex flex-col'>
+
       <Header/>
 
       <About/>

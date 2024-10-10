@@ -5,7 +5,7 @@ import './animationcsAbout.css';
 
 export default function About(){
     return (
-        <div id="about" className="scroll-smooth w-full h-[unset] bg-slate-950 md:h-[700px] flex items-center justify-center mt-20 p-5 md:p-10 border-b-2 border-b-letterColor">
+        <div id="about" className="scroll-smooth w-full h-[unset] md:h-[700px] flex items-center justify-center mt-20 p-5 md:p-10 border-b-2 border-b-letterColor">
             <div className="w-full max-w-7xl h-full flex flex-col-reverse md:flex-row justify-evenly items-center gap-5">
                 <div id="text-about" className="relative flex flex-col items-start justify-center gap-5 w-[100%]">
                     <h1 className="text-letterColor text-1xl md:text-3xl">

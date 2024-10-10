@@ -38,23 +38,6 @@ export interface objectProjectsProps {
         }, 
     },
     {
-        name: 'T-Alpha',
-        url: 'https://t-alpha-91d4.vercel.app/',
-        img: './T-Alpha.jpg',
-        description: 'Esta aplicação apresenta uma tela de usuário, onde é necessário criar um login para acessar a página principal. Na página principal, o usuário tem a capacidade de adicionar novos produtos, excluir produtos existentes, editar informações dos produtos ou filtrá-los por nome.',
-        github: 'https://github.com/AugustoAumond/T-Alpha',
-        tecnology: {
-            vue: false,
-            react: true,
-            angular: false,
-            tailwind: true,
-            typescript: true,
-            html: true,
-            css: true,
-            javascript: false
-        },
-    },
-    {
         name: 'Forms Angular',
         url: 'https://forms-angular-smoky.vercel.app/',
         img: './forms-angular.jpg',
