@@ -18,8 +18,6 @@ export interface objectProjectsProps {
 
 }
 
-
-
     export const object: objectProjectsProps[] = [{
         name: 'planner',
         url: 'https://nlw-plann-er.vercel.app/',
