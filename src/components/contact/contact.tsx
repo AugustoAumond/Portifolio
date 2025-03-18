@@ -33,7 +33,7 @@ export default function Contact(){
                 </div>
 
                 <div className="text-sm md:text-lg">
-                    <a className="flex gap-2 items-center justify-start hover:text-letterColor" href="./Curriculo Augusto.pdf" download="./Curriculo Augusto.pdf">
+                    <a className="flex gap-2 items-center justify-start hover:text-letterColor" href="./Curriculum_Augusto.pdf" download="./Curriculo Augusto.pdf">
                         <FaFile className="size-4 md:size-6" />: Curriculum Augusto
                     </a>
                 </div>
