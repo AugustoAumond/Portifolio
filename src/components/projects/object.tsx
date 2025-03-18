@@ -18,7 +18,24 @@ export interface objectProjectsProps {
 
 }
 
-    export const object: objectProjectsProps[] = [{
+    export const object: objectProjectsProps[] = [
+        {
+            name: 'Clone Github',
+            url: 'https://magazord.vercel.app/',
+            img: './github.png',
+            description: 'É uma aplicação que utiliza a API do github para listar os projetos mais populares, no Header é possível pesquisar usuários e dentro da abas usuários é possível buscar os repositórios por linguagem ou pelos marcados, e também visualizar todos os commits do projeto.',
+            github: 'https://github.com/AugustoAumond/magazord',
+            tecnology: {
+                vue: false,
+                react: true,
+                angular: false,
+                tailwind: true,
+                typescript: true,
+                html: true,
+                css: true,
+                javascript: false
+            }, 
+        },{
         name: 'planner',
         url: 'https://nlw-plann-er.vercel.app/',
         img: './planner.jpg',
@@ -34,57 +51,6 @@ export interface objectProjectsProps {
             css: true,
             javascript: false
         }, 
-    },
-    {
-        name: 'Forms Angular',
-        url: 'https://forms-angular-smoky.vercel.app/',
-        img: './forms-angular.jpg',
-        description: "Esta aplicação consiste em um formulário que o usuário preenche para gerar automaticamente um cartão de visita personalizado.",
-        github: 'https://github.com/AugustoAumond/Forms_angular',
-        tecnology: {
-            vue: false,
-            react: false,
-            angular: true,
-            tailwind: true,
-            typescript: true,
-            html: true,
-            css: true,
-            javascript: false
-        },
-    },
-    {
-        name: 'Weather Aplication',
-        url: 'https://climate-weather-two.vercel.app/',
-        img: 'weather.jpg',
-        description: "Esta aplicação apresenta uma página onde o usuário pode inserir o local desejado e obter informações detalhadas sobre a temperatura, clima, umidade e sensação térmica. Observação: Para visualizar o projeto em pleno funcionamento, é necessário baixá-lo do GitHub, pois a API hospedada no Vercel está enfrentando problemas de CORS.",
-        github: 'https://github.com/AugustoAumond/climate_weather',
-        tecnology: {
-            vue: false,
-            react: false,
-            angular: true,
-            tailwind: true,
-            typescript: true,
-            html: true,
-            css: true,
-            javascript: false
-        },
-    },
-    {
-        name: 'Hilca',
-        url: 'https://hilca.vercel.app/',
-        img: 'hilca.jpg',
-        description: "Esta aplicação oferece uma página dedicada a diversos projetos da Lei Rouanet. O usuário pode filtrar os projetos, paginar a exibição para controlar a quantidade de itens na página e acessar mais informações detalhadas sobre cada projeto ao clicar nele.",
-        github: 'https://github.com/AugustoAumond/hilca',
-        tecnology: {
-            vue: false,
-            react: true,
-            angular: false,
-            tailwind: false,
-            typescript: false,
-            html: true,
-            css: true,
-            javascript: true
-        },
     },
     {
         name: 'Frexco',
@@ -104,23 +70,6 @@ export interface objectProjectsProps {
         },
     },
     {
-        name: 'Begin One',
-        url: 'https://begin-one.vercel.app/',
-        img: 'begin-one.jpg',
-        description: "A aplicação consiste em uma página totalmente responsiva, com o grande destaque sendo o desenvolvimento cuidadoso e detalhado do layout.",
-        github: 'https://github.com/AugustoAumond/begin',
-        tecnology: {
-            vue: false,
-            react: true,
-            angular: false,
-            tailwind: false,
-            typescript: true,
-            html: true,
-            css: true,
-            javascript: false
-        },
-    },
-    {
         name: 'BDTI',
         url: 'https://bdti.vercel.app/',
         img: './bdti.jpg',
@@ -135,6 +84,74 @@ export interface objectProjectsProps {
             html: true,
             css: true,
             javascript: true
+        },
+    },
+    {
+        name: 'Forms Angular',
+        url: 'https://forms-angular-smoky.vercel.app/',
+        img: './forms-angular.jpg',
+        description: "Esta aplicação consiste em um formulário que o usuário preenche para gerar automaticamente um cartão de visita personalizado.",
+        github: 'https://github.com/AugustoAumond/Forms_angular',
+        tecnology: {
+            vue: false,
+            react: false,
+            angular: true,
+            tailwind: true,
+            typescript: true,
+            html: true,
+            css: true,
+            javascript: false
+        },
+    },
+    // {
+    //     name: 'Weather Aplication',
+    //     url: 'https://climate-weather-two.vercel.app/',
+    //     img: 'weather.jpg',
+    //     description: "Esta aplicação apresenta uma página onde o usuário pode inserir o local desejado e obter informações detalhadas sobre a temperatura, clima, umidade e sensação térmica. Observação: Para visualizar o projeto em pleno funcionamento, é necessário baixá-lo do GitHub, pois a API hospedada no Vercel está enfrentando problemas de CORS.",
+    //     github: 'https://github.com/AugustoAumond/climate_weather',
+    //     tecnology: {
+    //         vue: false,
+    //         react: false,
+    //         angular: true,
+    //         tailwind: true,
+    //         typescript: true,
+    //         html: true,
+    //         css: true,
+    //         javascript: false
+    //     },
+    // },
+    // {
+    //     name: 'Hilca',
+    //     url: 'https://hilca.vercel.app/',
+    //     img: 'hilca.jpg',
+    //     description: "Esta aplicação oferece uma página dedicada a diversos projetos da Lei Rouanet. O usuário pode filtrar os projetos, paginar a exibição para controlar a quantidade de itens na página e acessar mais informações detalhadas sobre cada projeto ao clicar nele.",
+    //     github: 'https://github.com/AugustoAumond/hilca',
+    //     tecnology: {
+    //         vue: false,
+    //         react: true,
+    //         angular: false,
+    //         tailwind: false,
+    //         typescript: false,
+    //         html: true,
+    //         css: true,
+    //         javascript: true
+    //     },
+    // },
+    {
+        name: 'Begin One',
+        url: 'https://begin-one.vercel.app/',
+        img: 'begin-one.jpg',
+        description: "A aplicação consiste em uma página totalmente responsiva, com o grande destaque sendo o desenvolvimento cuidadoso e detalhado do layout.",
+        github: 'https://github.com/AugustoAumond/begin',
+        tecnology: {
+            vue: false,
+            react: true,
+            angular: false,
+            tailwind: false,
+            typescript: true,
+            html: true,
+            css: true,
+            javascript: false
         },
     },
     {
