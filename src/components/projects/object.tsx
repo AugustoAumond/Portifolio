@@ -53,6 +53,23 @@ export interface objectProjectsProps {
         }, 
     },
     {
+        name: 'Frexco Novo',
+        url: 'https://new-frexco-wu4o.vercel.app/',
+        img: './frexco-new.jpg',
+        description: "A aplicação consiste em uma lista de produtos onde os usuários podem adicionar itens ao carrinho. Dentro do carrinho, é possível ajustar a quantidade de cada produto ou removê-los completamente. É uma releituro do frexco antigo, enquanto não termino de refazer o projeto manterei ambos no portifólio.",
+        github: 'https://github.com/AugustoAumond/new-frexco',
+        tecnology: {
+            vue: false,
+            react: true,
+            angular: false,
+            tailwind: false,
+            typescript: true,
+            html: true,
+            css: true,
+            javascript: false
+        },
+    },
+    {
         name: 'Frexco',
         url: 'https://frexco-beta.vercel.app/',
         img: './frexco.jpg',
