@@ -2,7 +2,7 @@ import './App.css';
 import Contact from './components/contact/contact';
 import Header from './components/header/header';
 import Projects from './components/projects/projects';
-// import About from './components/about/about';
+import About from './components/about/about';
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
       <Header/>
 
-      {/* <About/> */}
+      <About/>
 
       <Projects/>
 
