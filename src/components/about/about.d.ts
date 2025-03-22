@@ -1,0 +1,1 @@
+declare module "./components/about/about.tsx";
